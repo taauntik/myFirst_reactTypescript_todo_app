@@ -1,0 +1,47 @@
+.todoItem {
+  background-color: white;
+  padding: 10px 20px;
+  width: 400px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoItem:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.todoItem___delete-btn {
+  background-color: red;
+}
+
+.todoItem___delete-btn:hover {
+  background-color: rgb(116, 3, 3);
+}
+
+.todoItem__btn {
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.2s;
+  cursor: pointer;
+  color: white;
+  margin: 5px;
+}
+
+.todoItem__btn:hover {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.todoItem__update-btn {
+  background-color: rgb(4, 190, 4);
+}
+
+.todoItem__update-btn:hover {
+  background-color: rgb(2, 126, 2);
+}
